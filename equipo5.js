@@ -46,6 +46,12 @@ const sorprender = (texto) => texto + '!';
 
 //-------------------------------
 // Funciones simples 8: Daniel
+const tipoDeDato = (dato) => typeof dato;
+
+// console.log(tipoDeDato(7));
 
 //-------------------------------
 // Funciones simples 9: Daniel
+const circunferencia = (radio) => Math.PI * radio * 2;
+
+// console.log(circunferencia(10));
