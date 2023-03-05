@@ -21,6 +21,7 @@ const pulgadasEnCentimetros = (pulgadas) => pulgadas * 2.54 + ' centimetros';
 
 // console.log(pulgadasEnCentimetros(0.3));
 
+//-------------------------------
 // Funciones simples 2
 const convertirURL = (texto) => 'https://www.' + texto + '.com';
 
@@ -33,25 +34,34 @@ const sorprender = (texto) => texto + '!';
 // console.log(sorprender('Ganamos la tercera'));
 
 //-------------------------------
-// Funciones simples 4: Ailin
+// Funciones simples 4:
+const edadEnPerros = (edad) => edad * 7;
+
+// console.log(edadEnPerros(10));
 
 //-------------------------------
-// Funciones simples 5: Ailin
+// Funciones simples 5:
+const valorPorHora = (sueldo) => sueldo / 40;
+
+// console.log(valorPorHora(350000));
 
 //-------------------------------
-// Funciones simples 6: Ariel
+// Funciones simples 6:
 
 //-------------------------------
-// Funciones simples 7: Ariel
+// Funciones simples 7:
+const enMayusculas = (texto) => texto.toUpperCase();
+
+//console.log(enMayusculas('hola'));
 
 //-------------------------------
-// Funciones simples 8: Daniel
+// Funciones simples 8:
 const tipoDeDato = (dato) => typeof dato;
 
 // console.log(tipoDeDato(7));
 
 //-------------------------------
-// Funciones simples 9: Daniel
+// Funciones simples 9:
 const circunferencia = (radio) => Math.PI * radio * 2;
 
 // console.log(circunferencia(10));
